@@ -5,7 +5,7 @@ artillery run lkp-consumer.yml
 ````
 or
 
-`````
+````
 npm run artillery
 ````
 
