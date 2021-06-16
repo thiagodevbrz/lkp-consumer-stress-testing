@@ -1,0 +1,29 @@
+{
+  "name": "lkp-consumer-stress-testing",
+  "version": "1.0.0",
+  "description": "Artillery io features for LinkApi tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "artillery": "artillery run lkp-consumer.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagodevbrz/lkp-consumer-stress-testing.git"
+  },
+  "keywords": [
+    "artillery.io",
+    "stress",
+    "tests",
+    "LinkApi"
+  ],
+  "author": "Thiago Pereira <thiago.dev.brz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagodevbrz/lkp-consumer-stress-testing/issues"
+  },
+  "homepage": "https://github.com/thiagodevbrz/lkp-consumer-stress-testing#readme",
+  "dependencies": {
+    "artillery": "^1.7.3"
+  }
+}
