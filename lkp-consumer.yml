@@ -1,0 +1,17 @@
+config:
+  target: "http://localhost:4000"
+  phases:
+    - duration: 10
+      arrivalRate: 1
+  http:
+    pool: 10
+    maxSockets: 10
+  variables:
+    users:
+      - ["id1", "id2", "id3"]
+scenarios:
+  - flow:
+      - loop:
+        - post:
+            url: "/dispatcher?user={{$loopElement}}"
+          over: users
